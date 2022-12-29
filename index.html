@@ -9,51 +9,21 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <article>
-            <div class="header__movie">
-                <h1>PELISJOACO</h1>
-                <P>Una expereriencia audiovisual sin limites</P>
-            </div>
-        </article>
-    </header>
     <main>
-        <article>
-            <div class="options__movie">
-                <button class="btn active" data-filter="TRENDING">TRENDING</button>
-                <button class="btn" data-filter="TOPRATE">TOPRATED</button>
-                <button class="btn" data-filter="UPCOMING">UPCOMING</button>
-            </div>
-        </article>
-        <div class="cards__container">
-            <div class="card">
-                    <img class ="imagen" src="./assets/avatar.jpg" alt="avatar">
-                    
-                </div>
-                <div class="mid_card">
-                     10% popularidad
-                </div>
-                <div class="bot__card">
-                    <h2 class="titulo">Avatar</h2>
-                    <p class="fecha">Fecha de estreno: 12/12/2022</p>
-                </div>
-            </div>
-        </div>
+    <div class="search">
+        <h1>El clima en</h1>
+        <form action="" class="" id="form">
+                <label for="buscador"></label>
+                <input type="text" id ="buscador" placeholder="Ingrese su ciudad">  <!-- La idea es que la lupa y el input esten al lado -->       
+            <button class="btn__search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </div>
+    <div class="container__clima">
+        
+        
+    </div>
     </main>
-    <footer>
-        <div class="pagination">
-            <div class="left">
-                <i class="fa-solid fa-left-long"></i>
-            </div>
-            <div class="pages">
-                <button class="page-number active">0</button>
-
-            </div>
-            <div class="right">
-                <i class="fa-solid fa-right-long"></i>
-            </div>
-        </div>
-    </footer>
+</body>        
 <script src="./request.js"></script>
 <script src="./main.js"></script>
 </body>
